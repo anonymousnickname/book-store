@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "isRead": false,
+        "title": "Harry Potter",
+        "description": "A book about the boy who lived"
+    },
+    {
+        "id": 2,
+        "isRead": true,
+        "title": "The Great Gatsby",
+        "description": "Love kills"
+    },
+    {
+        "id": 3,
+        "isRead": false,
+        "title": "Rich dad Poor dad",
+        "description": "How to earn money"
+    },
+    {
+        "id": 4,
+        "isRead": true,
+        "title": "The Richest Man in Babylon",
+        "description": "Money talks"
+    },
+    {
+        "id": 5,
+        "isRead": false,
+        "title": "Clean code",
+        "description": "Scalable and maintainable code"
+    }
+]
