@@ -6,7 +6,6 @@ export const BookForm = ({ onAddNewBook }) => {
   const inputRef = useRef(null);
   const [book, setBook] = useState(() => ({
     isRead: false,
-    description: "",
     title: "",
   }));
   useEffect(() => {
@@ -23,7 +22,6 @@ export const BookForm = ({ onAddNewBook }) => {
           onAddNewBook(book);
           setBook(() => ({
             isRead: false,
-            description: "",
             title: "",
           }));
         }

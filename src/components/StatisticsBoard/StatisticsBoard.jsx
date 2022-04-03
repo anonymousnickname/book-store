@@ -15,7 +15,9 @@ export const StatisticsBoard = ({
         <span className="read">Read: {readBooks}</span>
         <span className="not-read">Not read: {notReadBooks}</span>
       </div>
-      <button onClick={onRemoveAll}>Remove all</button>
+      <button className="remove-button" onClick={onRemoveAll}>
+        Remove all
+      </button>
     </div>
   );
 };
